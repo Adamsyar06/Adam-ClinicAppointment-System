@@ -70,7 +70,10 @@ namespace WinFormsApp1
             else if (adminLogin != null)
             {
                 MessageBox.Show("Admin login successful!");
-                //redirect to admin dashboard
+                AdminDashboard admins = new AdminDashboard(GetEmail, GetPassword);
+                this.Hide();
+                admins.ShowDialog();
+                this.Show();
             }
             else
             {
