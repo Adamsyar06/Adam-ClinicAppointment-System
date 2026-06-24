@@ -45,6 +45,7 @@ namespace WinFormsApp1
                     FullName = Fullnametxt.Text,
                     Gender = Gender,
                     DateOfBirth = Dob,
+                    Email = Emailtxt.Text,
                     IcNumber = ICnumbertxt.Text,
                     PhoneNo = Phonenumtxt.Text,
                     Password = Password
@@ -89,7 +90,7 @@ namespace WinFormsApp1
             int number = int.Parse(lastPatient.PatientId.Substring(2));
             number++;
 
-            return $"PT{number:D4}";
+            return $"PT{number + 1:D3}";
         }
 
         private void cancelbtn_Click(object sender, EventArgs e)

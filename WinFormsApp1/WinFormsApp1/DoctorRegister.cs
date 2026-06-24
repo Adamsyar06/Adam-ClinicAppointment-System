@@ -18,31 +18,25 @@ namespace WinFormsApp1
         public DoctorRegister()
         {
             InitializeComponent();
+            LoadDepartment();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                Doctor newDoctor = new Doctor();
-                newDoctor.DoctorId = GenerateDoctorId();
-
-                var textBoxes = this.Controls.OfType<TextBox>()
-                                    .OrderBy(t => t.Top)
-                                    .ToList();
-
-                if (textBoxes.Count >= 4)
+                Doctor newDoctor = new Doctor()
                 {
-                    newDoctor.FullName = textBoxes[0].Text;
-                    newDoctor.DepartmentId = textBoxes[1].Text;
-                    newDoctor.Email = textBoxes[2].Text;
-                    newDoctor.PhoneNo = textBoxes[3].Text;
-                }
-                else
-                {
-                    MessageBox.Show("Sila pastikan semua kotak input diisi dengan betul.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
+                    DoctorId = GenerateDoctorId(),
+                    FullName = Fullnametxt.Text,
+                    DepartmentId = DepartmentCombo.SelectedValue.ToString(),
+                    Email = Phonenumtxt.Text,
+                    PhoneNo = textBox2.Text
+                };
+
+
+
+
 
                 db.Doctors.Add(newDoctor);
                 db.SaveChanges();
@@ -77,7 +71,7 @@ namespace WinFormsApp1
             if (lastDoctor.DoctorId.Length >= 3 && int.TryParse(lastDoctor.DoctorId.Substring(2), out int number))
             {
                 number++;
-                return $"DR{number:D4}";
+                return $"DR{number + 1:D3}";
             }
 
             return "DR0001";
@@ -85,9 +79,73 @@ namespace WinFormsApp1
 
         private void cancelbtn_Click(object sender, EventArgs e)
         {
-            foreach (var tb in this.Controls.OfType<TextBox>())
+
+        }
+
+        private void DoctorRegister_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoadDepartment()
+        {
+
+
+            var Department = db.Departments.Select(d => new
             {
-                tb.Text = string.Empty;
+                d.DepartmentId,
+                d.DepartmentName,
+                DisplayName = d.DepartmentName
+            }).ToList();
+
+            DepartmentCombo.DataSource = Department;
+            DepartmentCombo.DisplayMember = "DisplayName";
+            DepartmentCombo.ValueMember = "DepartmentId";
+            DepartmentCombo.SelectedIndex = -1;
+        }
+
+        private void Signinbtn_Click(object sender, EventArgs e)
+        {
+            AdminConfrmationi confirmation = new AdminConfrmationi();
+
+            if (confirmation.ShowDialog() != DialogResult.OK)
+            {
+                MessageBox.Show("Admin verification failed.");
+                return;
+            }
+
+            string doctorId = GenerateDoctorId();
+
+            MessageBox.Show($"Generated ID: {doctorId}");
+            Doctor newDoctor = new Doctor()
+            {
+                DoctorId = doctorId,
+                FullName = Fullnametxt.Text,
+                DepartmentId = DepartmentCombo.SelectedValue.ToString(),
+                Email = Phonenumtxt.Text,
+                PhoneNo = textBox2.Text
+            };
+        
+
+
+            db.Doctors.Add(newDoctor);
+            db.SaveChanges();
+
+            var check = db.Doctors.FirstOrDefault(x => x.DoctorId == newDoctor.DoctorId);
+
+            if (check != null)
+            {
+                MessageBox.Show("Doctor Account Created Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Due to some Logical Error, data couldn't be inserted.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

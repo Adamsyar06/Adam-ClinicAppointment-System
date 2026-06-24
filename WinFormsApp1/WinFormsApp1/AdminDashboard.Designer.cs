@@ -29,28 +29,15 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button2 = new Button();
+            button1 = new Button();
             label1 = new Label();
             Refreshbtn = new Button();
             ShowDoctorlbl = new Label();
             panel5 = new Panel();
-            dgvCancellationRequests = new DataGridView();
-            colRequestID = new DataGridViewTextBoxColumn();
-            colPatientName = new DataGridViewTextBoxColumn();
-            colDoctorName = new DataGridViewTextBoxColumn();
-            colAppointmentDate = new DataGridViewTextBoxColumn();
-            colReason = new DataGridViewTextBoxColumn();
-            colStatus = new DataGridViewTextBoxColumn();
+            CancellationRequestDGV = new DataGridView();
             label5 = new Label();
-            btnApprove = new Button();
-            btnReject = new Button();
-            btnRefresh = new Button();
             dgvTodayAppointments = new DataGridView();
-            colAppointmentID = new DataGridViewTextBoxColumn();
-            colTodayPatientName = new DataGridViewTextBoxColumn();
-            colTodayDoctorName = new DataGridViewTextBoxColumn();
-            colTodayAppointmentDate = new DataGridViewTextBoxColumn();
-            colTodayAppointmentTime = new DataGridViewTextBoxColumn();
-            colTodayStatus = new DataGridViewTextBoxColumn();
             panel2 = new Panel();
             label2 = new Label();
             pnlTotalDoctors = new Panel();
@@ -62,15 +49,9 @@
             panel3 = new Panel();
             label3 = new Label();
             dgvUpcomingAppointments = new DataGridView();
-            colUpcomingAppointmentID = new DataGridViewTextBoxColumn();
-            colUpcomingPatientName = new DataGridViewTextBoxColumn();
-            colUpcomingDoctorName = new DataGridViewTextBoxColumn();
-            colUpcomingAppointmentDate = new DataGridViewTextBoxColumn();
-            colUpcomingAppointmentTime = new DataGridViewTextBoxColumn();
-            colUpcomingStatus = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvCancellationRequests).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)CancellationRequestDGV).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvTodayAppointments).BeginInit();
             panel2.SuspendLayout();
             pnlTotalDoctors.SuspendLayout();
@@ -82,6 +63,8 @@
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(Refreshbtn);
             panel1.Controls.Add(ShowDoctorlbl);
@@ -89,6 +72,34 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1515, 145);
             panel1.TabIndex = 2;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.Cursor = Cursors.No;
+            button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.MidnightBlue;
+            button2.Location = new Point(1190, 84);
+            button2.Name = "button2";
+            button2.Size = new Size(139, 35);
+            button2.TabIndex = 4;
+            button2.Text = "Add Department";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button1.Cursor = Cursors.No;
+            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.MidnightBlue;
+            button1.Location = new Point(1030, 84);
+            button1.Name = "button1";
+            button1.Size = new Size(139, 35);
+            button1.TabIndex = 3;
+            button1.Text = "Add Doctor";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -129,74 +140,23 @@
             // 
             // panel5
             // 
-            panel5.Controls.Add(dgvCancellationRequests);
+            panel5.Controls.Add(CancellationRequestDGV);
             panel5.Controls.Add(label5);
-            panel5.Location = new Point(23, 827);
+            panel5.Location = new Point(20, 724);
             panel5.Name = "panel5";
             panel5.Size = new Size(1136, 203);
             panel5.TabIndex = 6;
             // 
-            // dgvCancellationRequests
+            // CancellationRequestDGV
             // 
-            dgvCancellationRequests.AllowUserToAddRows = false;
-            dgvCancellationRequests.AllowUserToDeleteRows = false;
-            dgvCancellationRequests.AllowUserToOrderColumns = true;
-            dgvCancellationRequests.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvCancellationRequests.BackgroundColor = SystemColors.ActiveBorder;
-            dgvCancellationRequests.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCancellationRequests.Columns.AddRange(new DataGridViewColumn[] { colRequestID, colPatientName, colDoctorName, colAppointmentDate, colReason, colStatus });
-            dgvCancellationRequests.Location = new Point(0, 61);
-            dgvCancellationRequests.Margin = new Padding(3, 4, 3, 4);
-            dgvCancellationRequests.MultiSelect = false;
-            dgvCancellationRequests.Name = "dgvCancellationRequests";
-            dgvCancellationRequests.ReadOnly = true;
-            dgvCancellationRequests.RowHeadersVisible = false;
-            dgvCancellationRequests.RowHeadersWidth = 51;
-            dgvCancellationRequests.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvCancellationRequests.Size = new Size(1136, 141);
-            dgvCancellationRequests.TabIndex = 5;
-            // 
-            // colRequestID
-            // 
-            colRequestID.HeaderText = "Request ID";
-            colRequestID.MinimumWidth = 6;
-            colRequestID.Name = "colRequestID";
-            colRequestID.ReadOnly = true;
-            // 
-            // colPatientName
-            // 
-            colPatientName.HeaderText = "Patient Name";
-            colPatientName.MinimumWidth = 6;
-            colPatientName.Name = "colPatientName";
-            colPatientName.ReadOnly = true;
-            // 
-            // colDoctorName
-            // 
-            colDoctorName.HeaderText = "Doctor Name";
-            colDoctorName.MinimumWidth = 6;
-            colDoctorName.Name = "colDoctorName";
-            colDoctorName.ReadOnly = true;
-            // 
-            // colAppointmentDate
-            // 
-            colAppointmentDate.HeaderText = "Appointment Date";
-            colAppointmentDate.MinimumWidth = 6;
-            colAppointmentDate.Name = "colAppointmentDate";
-            colAppointmentDate.ReadOnly = true;
-            // 
-            // colReason
-            // 
-            colReason.HeaderText = "Cancellation Reason";
-            colReason.MinimumWidth = 6;
-            colReason.Name = "colReason";
-            colReason.ReadOnly = true;
-            // 
-            // colStatus
-            // 
-            colStatus.HeaderText = "Status";
-            colStatus.MinimumWidth = 6;
-            colStatus.Name = "colStatus";
-            colStatus.ReadOnly = true;
+            CancellationRequestDGV.BackgroundColor = SystemColors.Control;
+            CancellationRequestDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            CancellationRequestDGV.Location = new Point(3, 61);
+            CancellationRequestDGV.Name = "CancellationRequestDGV";
+            CancellationRequestDGV.RowHeadersWidth = 51;
+            CancellationRequestDGV.Size = new Size(1133, 142);
+            CancellationRequestDGV.TabIndex = 6;
+            CancellationRequestDGV.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label5
             // 
@@ -209,104 +169,29 @@
             label5.TabIndex = 4;
             label5.Text = "Requested Appointment Cancellation";
             // 
-            // btnApprove
-            // 
-            btnApprove.Location = new Point(1177, 877);
-            btnApprove.Margin = new Padding(3, 4, 3, 4);
-            btnApprove.Name = "btnApprove";
-            btnApprove.Size = new Size(86, 31);
-            btnApprove.TabIndex = 6;
-            btnApprove.Text = "Approve";
-            btnApprove.UseVisualStyleBackColor = true;
-            btnApprove.Click += btnApprove_Click;
-            // 
-            // btnReject
-            // 
-            btnReject.Location = new Point(1177, 931);
-            btnReject.Margin = new Padding(3, 4, 3, 4);
-            btnReject.Name = "btnReject";
-            btnReject.Size = new Size(86, 31);
-            btnReject.TabIndex = 7;
-            btnReject.Text = "Reject";
-            btnReject.UseVisualStyleBackColor = true;
-            btnReject.Click += btnReject_Click;
-            // 
-            // btnRefresh
-            // 
-            btnRefresh.Location = new Point(1177, 984);
-            btnRefresh.Margin = new Padding(3, 4, 3, 4);
-            btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(86, 31);
-            btnRefresh.TabIndex = 8;
-            btnRefresh.Text = "Refresh";
-            btnRefresh.UseVisualStyleBackColor = true;
-            btnRefresh.Click += btnRefresh_Click;
-            // 
             // dgvTodayAppointments
             // 
             dgvTodayAppointments.AllowUserToAddRows = false;
             dgvTodayAppointments.AllowUserToDeleteRows = false;
             dgvTodayAppointments.AllowUserToResizeRows = false;
             dgvTodayAppointments.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvTodayAppointments.BackgroundColor = SystemColors.Control;
             dgvTodayAppointments.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTodayAppointments.Columns.AddRange(new DataGridViewColumn[] { colAppointmentID, colTodayPatientName, colTodayDoctorName, colTodayAppointmentDate, colTodayAppointmentTime, colTodayStatus });
             dgvTodayAppointments.Location = new Point(0, 55);
             dgvTodayAppointments.MultiSelect = false;
             dgvTodayAppointments.Name = "dgvTodayAppointments";
-            dgvTodayAppointments.ReadOnly = true;
             dgvTodayAppointments.RowHeadersVisible = false;
             dgvTodayAppointments.RowHeadersWidth = 51;
             dgvTodayAppointments.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvTodayAppointments.Size = new Size(1133, 156);
             dgvTodayAppointments.TabIndex = 9;
-            // 
-            // colAppointmentID
-            // 
-            colAppointmentID.HeaderText = "Appointment ID";
-            colAppointmentID.MinimumWidth = 6;
-            colAppointmentID.Name = "colAppointmentID";
-            colAppointmentID.ReadOnly = true;
-            // 
-            // colTodayPatientName
-            // 
-            colTodayPatientName.HeaderText = "Patient Name";
-            colTodayPatientName.MinimumWidth = 6;
-            colTodayPatientName.Name = "colTodayPatientName";
-            colTodayPatientName.ReadOnly = true;
-            // 
-            // colTodayDoctorName
-            // 
-            colTodayDoctorName.HeaderText = "Doctor Name";
-            colTodayDoctorName.MinimumWidth = 6;
-            colTodayDoctorName.Name = "colTodayDoctorName";
-            colTodayDoctorName.ReadOnly = true;
-            // 
-            // colTodayAppointmentDate
-            // 
-            colTodayAppointmentDate.HeaderText = "Appointment Date";
-            colTodayAppointmentDate.MinimumWidth = 6;
-            colTodayAppointmentDate.Name = "colTodayAppointmentDate";
-            colTodayAppointmentDate.ReadOnly = true;
-            // 
-            // colTodayAppointmentTime
-            // 
-            colTodayAppointmentTime.HeaderText = "Appointment Time";
-            colTodayAppointmentTime.MinimumWidth = 6;
-            colTodayAppointmentTime.Name = "colTodayAppointmentTime";
-            colTodayAppointmentTime.ReadOnly = true;
-            // 
-            // colTodayStatus
-            // 
-            colTodayStatus.HeaderText = "Status";
-            colTodayStatus.MinimumWidth = 6;
-            colTodayStatus.Name = "colTodayStatus";
-            colTodayStatus.ReadOnly = true;
+            dgvTodayAppointments.CellContentClick += dgvTodayAppointments_CellContentClick;
             // 
             // panel2
             // 
             panel2.Controls.Add(label2);
             panel2.Controls.Add(dgvTodayAppointments);
-            panel2.Location = new Point(23, 329);
+            panel2.Location = new Point(20, 290);
             panel2.Name = "panel2";
             panel2.Size = new Size(1136, 205);
             panel2.TabIndex = 7;
@@ -378,15 +263,15 @@
             lblTotalPatientsTitle.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTotalPatientsTitle.Location = new Point(15, 11);
             lblTotalPatientsTitle.Name = "lblTotalPatientsTitle";
-            lblTotalPatientsTitle.Size = new Size(118, 23);
+            lblTotalPatientsTitle.Size = new Size(170, 23);
             lblTotalPatientsTitle.TabIndex = 10;
-            lblTotalPatientsTitle.Text = "Total Patients";
+            lblTotalPatientsTitle.Text = "Total Patients Today";
             // 
             // panel3
             // 
             panel3.Controls.Add(label3);
             panel3.Controls.Add(dgvUpcomingAppointments);
-            panel3.Location = new Point(23, 577);
+            panel3.Location = new Point(23, 507);
             panel3.Name = "panel3";
             panel3.Size = new Size(1136, 205);
             panel3.TabIndex = 10;
@@ -408,73 +293,27 @@
             dgvUpcomingAppointments.AllowUserToDeleteRows = false;
             dgvUpcomingAppointments.AllowUserToResizeRows = false;
             dgvUpcomingAppointments.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvUpcomingAppointments.BackgroundColor = SystemColors.Control;
             dgvUpcomingAppointments.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvUpcomingAppointments.Columns.AddRange(new DataGridViewColumn[] { colUpcomingAppointmentID, colUpcomingPatientName, colUpcomingDoctorName, colUpcomingAppointmentDate, colUpcomingAppointmentTime, colUpcomingStatus });
             dgvUpcomingAppointments.Location = new Point(0, 55);
             dgvUpcomingAppointments.MultiSelect = false;
             dgvUpcomingAppointments.Name = "dgvUpcomingAppointments";
-            dgvUpcomingAppointments.ReadOnly = true;
             dgvUpcomingAppointments.RowHeadersVisible = false;
             dgvUpcomingAppointments.RowHeadersWidth = 51;
             dgvUpcomingAppointments.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvUpcomingAppointments.Size = new Size(1133, 156);
             dgvUpcomingAppointments.TabIndex = 9;
             // 
-            // colUpcomingAppointmentID
-            // 
-            colUpcomingAppointmentID.HeaderText = "Appointment ID";
-            colUpcomingAppointmentID.MinimumWidth = 6;
-            colUpcomingAppointmentID.Name = "colUpcomingAppointmentID";
-            colUpcomingAppointmentID.ReadOnly = true;
-            // 
-            // colUpcomingPatientName
-            // 
-            colUpcomingPatientName.HeaderText = "Patient Name";
-            colUpcomingPatientName.MinimumWidth = 6;
-            colUpcomingPatientName.Name = "colUpcomingPatientName";
-            colUpcomingPatientName.ReadOnly = true;
-            // 
-            // colUpcomingDoctorName
-            // 
-            colUpcomingDoctorName.HeaderText = "Doctor Name";
-            colUpcomingDoctorName.MinimumWidth = 6;
-            colUpcomingDoctorName.Name = "colUpcomingDoctorName";
-            colUpcomingDoctorName.ReadOnly = true;
-            // 
-            // colUpcomingAppointmentDate
-            // 
-            colUpcomingAppointmentDate.HeaderText = "Appointment Date";
-            colUpcomingAppointmentDate.MinimumWidth = 6;
-            colUpcomingAppointmentDate.Name = "colUpcomingAppointmentDate";
-            colUpcomingAppointmentDate.ReadOnly = true;
-            // 
-            // colUpcomingAppointmentTime
-            // 
-            colUpcomingAppointmentTime.HeaderText = "Appointment Time";
-            colUpcomingAppointmentTime.MinimumWidth = 6;
-            colUpcomingAppointmentTime.Name = "colUpcomingAppointmentTime";
-            colUpcomingAppointmentTime.ReadOnly = true;
-            // 
-            // colUpcomingStatus
-            // 
-            colUpcomingStatus.HeaderText = "Status";
-            colUpcomingStatus.MinimumWidth = 6;
-            colUpcomingStatus.Name = "colUpcomingStatus";
-            colUpcomingStatus.ReadOnly = true;
-            // 
             // AdminDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(1285, 1055);
+            ClientSize = new Size(1387, 1055);
             Controls.Add(panel3);
             Controls.Add(pnlTotalPatients);
             Controls.Add(pnlTotalDoctors);
             Controls.Add(panel2);
-            Controls.Add(btnRefresh);
-            Controls.Add(btnReject);
-            Controls.Add(btnApprove);
             Controls.Add(panel5);
             Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);
@@ -484,7 +323,7 @@
             panel1.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvCancellationRequests).EndInit();
+            ((System.ComponentModel.ISupportInitialize)CancellationRequestDGV).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvTodayAppointments).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -506,25 +345,9 @@
 		private Label label1;
 		private Panel panel5;
 		private Label label5;
-		private DataGridView dgvCancellationRequests;
-		private DataGridViewTextBoxColumn colRequestID;
-		private DataGridViewTextBoxColumn colPatientName;
-		private DataGridViewTextBoxColumn colDoctorName;
-		private DataGridViewTextBoxColumn colAppointmentDate;
-		private DataGridViewTextBoxColumn colReason;
-		private DataGridViewTextBoxColumn colStatus;
-		private Button btnApprove;
-		private Button btnReject;
-		private Button btnRefresh;
 		private DataGridView dgvTodayAppointments;
 		private Panel panel2;
 		private Label label2;
-		private DataGridViewTextBoxColumn colAppointmentID;
-		private DataGridViewTextBoxColumn colTodayPatientName;
-		private DataGridViewTextBoxColumn colTodayDoctorName;
-		private DataGridViewTextBoxColumn colTodayAppointmentDate;
-		private DataGridViewTextBoxColumn colTodayAppointmentTime;
-		private DataGridViewTextBoxColumn colTodayStatus;
 		private Panel pnlTotalDoctors;
 		private Label lblTotalDoctorsTitle;
 		private Label lblTotalDoctorsValue;
@@ -534,11 +357,8 @@
 		private Panel panel3;
 		private Label label3;
 		private DataGridView dgvUpcomingAppointments;
-		private DataGridViewTextBoxColumn colUpcomingAppointmentID;
-		private DataGridViewTextBoxColumn colUpcomingPatientName;
-		private DataGridViewTextBoxColumn colUpcomingDoctorName;
-		private DataGridViewTextBoxColumn colUpcomingAppointmentDate;
-		private DataGridViewTextBoxColumn colUpcomingAppointmentTime;
-		private DataGridViewTextBoxColumn colUpcomingStatus;
-	}
+        private Button button2;
+        private Button button1;
+        private DataGridView CancellationRequestDGV;
+    }
 }

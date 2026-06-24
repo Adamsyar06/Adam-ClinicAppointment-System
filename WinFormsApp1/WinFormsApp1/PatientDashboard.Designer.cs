@@ -94,6 +94,7 @@
             // 
             // CurrentAppointmentDGV
             // 
+            CurrentAppointmentDGV.BackgroundColor = SystemColors.Control;
             CurrentAppointmentDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             CurrentAppointmentDGV.Location = new Point(17, 58);
             CurrentAppointmentDGV.Name = "CurrentAppointmentDGV";
@@ -146,6 +147,7 @@
             // 
             // PastAppointmentDGV
             // 
+            PastAppointmentDGV.BackgroundColor = SystemColors.Control;
             PastAppointmentDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             PastAppointmentDGV.Location = new Point(19, 58);
             PastAppointmentDGV.Name = "PastAppointmentDGV";

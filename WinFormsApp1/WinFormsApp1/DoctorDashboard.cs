@@ -26,6 +26,8 @@ namespace WinFormsApp1
 				ShowDoctorlbl.Text = $"Welcome Back {GetDoctorName.FullName}";
 			}
 			LoadTodayAppointments();
+			LoadRequestedAppointments();
+			LoadUpcomingAppointments();
 
 		}
 
@@ -123,18 +125,21 @@ namespace WinFormsApp1
 		{
 			var requests = db.Appointments
 		.Where(x => x.DoctorId == _doctorId
-			&& x.Status == "Requested")
+			&& (x.Status == "Requested" ||x.Status == "Cancelled"))
 		.Select(x => new
 		{
 			Id = x.AppointmentId,
 			Patient = x.Patient.FullName,
 			Date = x.AppointmentDate,
-			Time = x.AppointmentTime
+			Time = x.AppointmentTime,
+			Status = x.Status
 		})
 		.ToList();
 
 			CancellationRequestDGV.DataSource = requests;
-		}
+			CancellationRequestDGV.AutoGenerateColumns = true;
+			CancellationRequestDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
 
 		private void CancellationRequestDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
