@@ -45,17 +45,18 @@ namespace WinFormsApp1
                 return;
             }
 
-            Department department = new Department() { 
-            DepartmentId = GenerateDepartmentId(),
-            DepartmentName = Fullnametxt.Text,
-            Description = Descriptiontxt.Text
+            Department department = new Department()
+            {
+                DepartmentId = GenerateDepartmentId(),
+                DepartmentName = Fullnametxt.Text,
+                Description = Descriptiontxt.Text
             };
 
-           
+
 
             db.Departments.Add(department);
             db.SaveChanges();
-           
+
             var check = db.Departments.FirstOrDefault(x => x.DepartmentId == department.DepartmentId);
             if (check != null)
             {
@@ -66,6 +67,13 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("Due to some Logical Error, data couldn't be inserted.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void RegisterDepartment_Load(object sender, EventArgs e)
+        {
+            var today = DateOnly.FromDateTime(DateTime.Today);
+
+            int totalAppointment;
         }
     }
 }

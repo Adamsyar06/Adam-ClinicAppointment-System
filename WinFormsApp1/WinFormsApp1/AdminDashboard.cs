@@ -132,7 +132,7 @@ namespace WinFormsApp1
             //         DataGridViewAutoSizeColumnsMode.Fill;
 
         }
-           
+
         private void LoadRequestCancel()
         {
             var today = DateOnly.FromDateTime(DateTime.Today);
@@ -186,12 +186,12 @@ namespace WinFormsApp1
 
         private void btnApprove_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnReject_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -253,6 +253,21 @@ namespace WinFormsApp1
                 LoadTodayData();
                 LoadUpcomingData();
                 LoadRequestCancel();
+            }
+        }
+
+        private void ViewDoctorbtn_Click(object sender, EventArgs e)
+        {
+            AdminConfrmationi admin = new AdminConfrmationi();
+            if (admin.ShowDialog() != DialogResult.OK)
+            {
+                MessageBox.Show("Admin verification failed.");
+                return;
+            }
+            else
+            {
+                ViewDoctor view = new ViewDoctor();
+                view.ShowDialog();
             }
         }
     }

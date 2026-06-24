@@ -150,3 +150,4 @@ C:\Users\user\Desktop\EventDrivenProgramming Project\ClinicAppointmentSystem Red
 C:\Users\user\Desktop\EventDrivenProgramming Project\ClinicAppointmentSystem Redesign\WinFormsApp1\WinFormsApp1\obj\Debug\net9.0-windows\WinFormsApp1.DoctorRegister.resources
 C:\Users\user\Desktop\EventDrivenProgramming Project\ClinicAppointmentSystem Redesign\WinFormsApp1\WinFormsApp1\obj\Debug\net9.0-windows\WinFormsApp1.RegisterDepartment.resources
 C:\Users\user\Desktop\EventDrivenProgramming Project\ClinicAppointmentSystem Redesign\WinFormsApp1\WinFormsApp1\obj\Debug\net9.0-windows\WinFormsApp1.AdminConfrmationi.resources
+C:\Users\user\Desktop\EventDrivenProgramming Project\ClinicAppointmentSystem Redesign\WinFormsApp1\WinFormsApp1\obj\Debug\net9.0-windows\WinFormsApp1.ViewDoctor.resources

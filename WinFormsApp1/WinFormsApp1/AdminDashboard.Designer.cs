@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            ViewDoctorbtn = new Button();
             button2 = new Button();
             button1 = new Button();
             label1 = new Label();
@@ -63,6 +64,7 @@
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
+            panel1.Controls.Add(ViewDoctorbtn);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
@@ -72,6 +74,20 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1515, 145);
             panel1.TabIndex = 2;
+            // 
+            // ViewDoctorbtn
+            // 
+            ViewDoctorbtn.BackColor = SystemColors.ButtonHighlight;
+            ViewDoctorbtn.Cursor = Cursors.No;
+            ViewDoctorbtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ViewDoctorbtn.ForeColor = Color.MidnightBlue;
+            ViewDoctorbtn.Location = new Point(880, 84);
+            ViewDoctorbtn.Name = "ViewDoctorbtn";
+            ViewDoctorbtn.Size = new Size(139, 35);
+            ViewDoctorbtn.TabIndex = 5;
+            ViewDoctorbtn.Text = "View Doctor";
+            ViewDoctorbtn.UseVisualStyleBackColor = false;
+            ViewDoctorbtn.Click += ViewDoctorbtn_Click;
             // 
             // button2
             // 
@@ -93,7 +109,7 @@
             button1.Cursor = Cursors.No;
             button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.MidnightBlue;
-            button1.Location = new Point(1030, 84);
+            button1.Location = new Point(1035, 84);
             button1.Name = "button1";
             button1.Size = new Size(139, 35);
             button1.TabIndex = 3;
@@ -360,5 +376,6 @@
         private Button button2;
         private Button button1;
         private DataGridView CancellationRequestDGV;
+        private Button ViewDoctorbtn;
     }
 }

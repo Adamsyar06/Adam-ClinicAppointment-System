@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\viewdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\viewdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\doctorregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\desktop\\eventdrivenprogramming project\\clinicappointmentsystem redesign\\winformsapp1\\winformsapp1\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\adminconfrmationi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminconfrmationi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\makeappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\makeappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA740E3-567C-4425-BA20-3EB31A0ED03F}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\winformsapp1\\doctorregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -102,13 +110,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DoctorDashboard.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\DoctorDashboard.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs",
               "RelativeToolTip": "WinFormsApp1\\DoctorDashboard.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAAwOEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAwOEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T18:54:54.868Z",
               "IsPinned": true,
@@ -116,13 +124,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AdminDashboard.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AdminDashboard.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs",
               "RelativeToolTip": "WinFormsApp1\\AdminDashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T16:24:13.582Z",
               "IsPinned": true,
@@ -131,31 +139,85 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\ViewDoctor.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ViewDoctor.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\ViewDoctor.cs",
+              "RelativeToolTip": "WinFormsApp1\\ViewDoctor.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAhwCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:31:26.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\ViewDoctor.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ViewDoctor.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\ViewDoctor.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\ViewDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:20:46.207Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RegisterDepartment.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RegisterDepartment.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs",
               "RelativeToolTip": "WinFormsApp1\\RegisterDepartment.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwEsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T17:02:49.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Register.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Register.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "RegisterDepartment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\RegisterDepartment.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\RegisterDepartment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T07:15:43.884Z",
+              "WhenOpened": "2026-06-21T16:26:41.258Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:22:58.85Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Register.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs",
+              "RelativeToolTip": "WinFormsApp1\\Register.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwFwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:50:56.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DoctorRegister.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorRegister.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\DoctorRegister.cs",
@@ -168,82 +230,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cs",
+              "DocumentIndex": 8,
+              "Title": "Register.cs [Design]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Register.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs",
-              "RelativeToolTip": "WinFormsApp1\\Register.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAiwFwAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:50:56.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2026-06-12T07:15:43.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:22:58.85Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminConfrmationi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminConfrmationi.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminConfrmationi.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminConfrmationi.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminConfrmationi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:39:17.069Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DoctorDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\DoctorDashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\DoctorDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T18:43:48.107Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PatientDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\PatientDashboard.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\PatientDashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\PatientDashboard.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\PatientDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T13:48:07.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T06:20:50.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
@@ -251,11 +249,12 @@
               "RelativeToolTip": "WinFormsApp1\\Form1.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwEgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T06:40:49.472Z"
+              "WhenOpened": "2026-06-12T06:40:49.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "PatientDashboard.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\PatientDashboard.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\PatientDashboard.cs",
@@ -263,11 +262,12 @@
               "RelativeToolTip": "WinFormsApp1\\PatientDashboard.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAcwHUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T13:55:09.106Z"
+              "WhenOpened": "2026-06-12T13:55:09.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
@@ -279,40 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegisterDepartment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\RegisterDepartment.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\RegisterDepartment.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\RegisterDepartment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:26:41.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MakeAppointment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\MakeAppointment.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\MakeAppointment.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\MakeAppointment.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\MakeAppointment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:09:03.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DoctorRegister.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorRegister.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\DoctorRegister.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorRegister.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\DoctorRegister.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T15:42:51.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
@@ -324,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AdminConfrmationi.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminConfrmationi.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AdminConfrmationi.cs",
@@ -332,11 +299,12 @@
               "RelativeToolTip": "WinFormsApp1\\AdminConfrmationi.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:42:13.159Z"
+              "WhenOpened": "2026-06-21T16:42:13.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MakeAppointment.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\MakeAppointment.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MakeAppointment.cs",
@@ -344,11 +312,12 @@
               "RelativeToolTip": "WinFormsApp1\\MakeAppointment.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAqwGYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T15:27:39.019Z"
+              "WhenOpened": "2026-06-12T15:27:39.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Register.Designer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Register.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Register.Designer.cs",
@@ -356,12 +325,11 @@
               "RelativeToolTip": "WinFormsApp1\\Register.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T16:00:12.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T16:00:12.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ClinicManagementSystemContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\models\\ClinicManagementSystemContext.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\models\\ClinicManagementSystemContext.cs",
@@ -370,6 +338,72 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAAnwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T06:29:15.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminConfrmationi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminConfrmationi.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminConfrmationi.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\AdminConfrmationi.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminConfrmationi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:39:17.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\DoctorDashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorDashboard.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\DoctorDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T18:43:48.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PatientDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\PatientDashboard.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\PatientDashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\PatientDashboard.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\PatientDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T13:48:07.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:20:50.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MakeAppointment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\MakeAppointment.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MakeAppointment.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\MakeAppointment.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\MakeAppointment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T15:09:03.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorRegister.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorRegister.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\DoctorRegister.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\EventDrivenProgramming Project\\ClinicAppointmentSystem Redesign\\WinFormsApp1\\WinFormsApp1\\DoctorRegister.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\DoctorRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:42:51.381Z"
             }
           ]
         }

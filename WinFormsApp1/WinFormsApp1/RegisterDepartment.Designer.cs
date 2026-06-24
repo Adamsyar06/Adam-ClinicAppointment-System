@@ -121,6 +121,7 @@
             Controls.Add(panel1);
             Name = "RegisterDepartment";
             Text = "RegisterDepartment";
+            Load += RegisterDepartment_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
